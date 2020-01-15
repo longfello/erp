@@ -1,0 +1,85 @@
+{
+    "name": "yiisoft/yii2-app-basic",
+    "description": "Yii 2 Basic Project Template",
+    "keywords": ["yii2", "framework", "basic", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.5",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "rmrevin/yii2-fontawesome": "^2.17",
+        "dektrium/yii2-rbac": "1.0.0-alpha@dev",
+        "dektrium/yii2-user": "0.9.*@dev",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "wfcreations/yii2-simple-line-icons": "dev-master",
+        "mg-code/yii2-assets": "@dev",
+        "bower-asset/history.js": "^1.8",
+        "bower-asset/awesome-grid": "^2.0",
+        "bower-asset/sly": "^1.6",
+        "bower-asset/jquery.browser": "^0.05.0",
+        "bower-asset/sticky": "^1.0",
+        "bower-asset/js-cookie": "^2.1",
+        "bower-asset/jquery-serialize-object": "^2.5",
+        "bower-asset/intl": "^1.2",
+        "bower-asset/owl.carousel": "^2.2",
+        "bower-asset/jquery.are-you-sure": "^1.9",
+        "machour/yii2-notifications": "@dev",
+        "2amigos/yii2-file-upload-widget": "^1.0",
+        "kartik-v/yii2-widget-growl": "*",
+        "bower-asset/twemoji": "^2.2",
+        "bower-asset/emojify.js": "^1.1",
+        "bower-asset/clipboard": "^1.5",
+        "kartik-v/yii2-widgets": "^3.4",
+        "borales/yii2-phone-input": "^0.0.5",
+        "yurkinx/yii2-image": "dev-master",
+        "skeeks/yii2-assets-auto-compress": "*",
+        "bower-asset/mark.js": "^8.4",
+        "richardfan1126/yii2-sortable-gridview": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "codeception/specify": "~0.4.3"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "web/assets": "0777",
+                    "yii": "0755"
+                }
+            ],
+            "generateCookieValidationKey": [
+                "config/web.php"
+            ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

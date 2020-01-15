@@ -1,0 +1,202 @@
+.table.table-striped.table-bordered thead tr th a{
+    vertical-align: middle;
+    display: inline-block;
+    color: #424c68;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+
+.table.table-striped.table-bordered thead tr th {
+    vertical-align: middle;
+    color: #424c68;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 0 12px 8px;
+    border-bottom-width: 0;
+}
+
+.form-control {
+    height: 40px;
+    border: 1px solid #d1d4d9;
+    border-radius: 2px;
+    color: #424c68;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 12px;
+    outline: none !important;
+    /*width: 175px;*/
+    transition: all .35s;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(27,204,199,0);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(27,204,199,0);
+    box-shadow: 0px 0px 20px 0px rgba(27,204,199,0);
+    outline: none !important;
+}
+
+#w3-filters .form-control {
+    width: 160px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: 4px;
+
+}
+
+.form-group {
+    color: #424c68;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form-control:hover,
+.form-control:focus {
+
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    /*!*border: 1px solid #ddd;*!*/
+    border: none;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 12px 4px 12px 8px;
+    vertical-align: middle;
+    color: #424c68;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+
+.btn-danger {
+    display: inline-block;
+    background: #1bccc7;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.35s;
+    position: relative;
+}
+
+.btn-danger:hover {
+    background: #1bccc7;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+.table.table-striped.table-bordered .glyphicon{
+    color: #1bccc7;
+}
+
+.table > thead > tr > th a,
+.table > tbody > tr > th a,
+.table > tfoot > tr > th a,
+.table > thead > tr > td a,
+.table > tbody > tr > td a,
+.table > tfoot > tr > td a{
+    text-decoration: none !important;
+}
+
+.nav-tabs > li > a,
+.dropdown-menu > li > a {
+    color: #424c68;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    border-color: #1bccc7;
+}
+
+.select2-container--krajee .select2-selection--single {
+    height: 40px;
+    padding: 10px 24px 6px 12px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+}
+
+.select2-container--krajee.select2-container--open .select2-selection,
+.select2-container--krajee .select2-selection:focus,
+.select2-container--krajee .select2-dropdown {
+    border-color: #1bccc7;
+}
+
+.select2-container--krajee .select2-results__option--highlighted[aria-selected] {
+    background-color: #1bccc7;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background-color: #1bccc7;
+}
+
+.nav-pills > li.active > a {
+    /*color: #424c68;*/
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.panel.panel-default {
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-success {
+    background-color: #1bccc7;
+    border-color: #1bccc7;
+    transition: all .3s;
+}
+
+.s2-select-label .glyphicon {
+    color: #1bccc7;
+}
+
+.btn-success:hover {
+    background-color: #1bccc7;
+    border-color: #1bccc7;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #1bccc7;
+}

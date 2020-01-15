@@ -1,0 +1,1 @@
+<?= $this->render('_internal', ['content' => $content]) ?>
